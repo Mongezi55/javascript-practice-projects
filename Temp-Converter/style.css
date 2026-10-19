@@ -1,0 +1,42 @@
+body{
+    background: darkgray;
+    font-family: fantasy;
+}
+
+.converter{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.converter label{
+    padding: 5px;
+}
+
+.title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#tempField{
+    text-align: center;
+    font-size: 15px;
+    width: 150px;
+}
+
+.converter button{
+    background: rgb(104, 150, 248);
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 20px;
+}
+
+.converter button:hover{
+    background: rgb(62, 207, 33);
+    cursor: pointer;
+}

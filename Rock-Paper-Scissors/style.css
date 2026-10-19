@@ -1,0 +1,36 @@
+
+#gameContainer{
+    width: 600px;
+    height: 280px;
+    text-align: center;
+    background-color: darkgray;
+    border: 3px solid;
+    border-radius: 20px;
+    font-family: fantasy, cursive;
+    padding: 10px;
+}
+#playerText{
+    color: rgb(0, 247, 255);
+}
+#computerText{
+    color: crimson;
+}
+#resultText{
+    color: black;
+}
+
+.gameBtn{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+}
+
+
+#gameDiv{
+    font-family: 'Brush Script MT', crusive;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: lightgray;
+    text-align: center;
+}

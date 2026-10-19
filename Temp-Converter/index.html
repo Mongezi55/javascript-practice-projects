@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <div class="converter">
+        
+        <label class="title">TEMPERATURE CONVERTER</label><br>
+        <label for="tempField">Enter Temparature in Pascals(K) </label>
+        <input type="text" id="tempField" ><br><br>
+        
+        <label for="convertBtn">Convert To: </label><br>
+        
+        <div class="convert-buttons">
+            <input type="radio" name="input" id="celsiusBtn" value="Celsius">
+            <label for="celsiusBtn">Celsius</label>
+            <br>    
+        </div>
+        <div class="convert-buttons">
+            <input type="radio" name="input" id="fahrenheitBtn" value="Fahrenheit">
+            <label for="fahrenheitBtn">Fahrenheit</label><br><br>
+        </div>
+
+        <button type="submit" id="myButton">Submit</button>
+
+        <br><br><label for="" id="resultLabel"></label>
+        
+    </div>
+    
+    <script type="module" src="main.js">
+
+    </script>
+</body>
+</html>

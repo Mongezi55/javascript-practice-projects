@@ -1,0 +1,28 @@
+body{
+    background-color: darkgray;
+}
+
+#gameContainer{
+    padding-top: 50px;
+    text-align: center;
+}
+
+#gameBoard{
+    border: 3px solid;
+}
+
+#scoreText{
+    font-family: 'Consolas', 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+.gameBtn{
+    font-family: 'Consolas', serif;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+}
